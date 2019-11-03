@@ -18,3 +18,9 @@ h1 {
 .browse {
   margin: center;
 }
+
+video {
+  width: "80%";
+  height: "80%";
+  margin:center;
+}
