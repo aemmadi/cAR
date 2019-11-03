@@ -11,3 +11,7 @@ function readURL(input) {
     reader.readAsDataURL(input.files[0]);
   }
 }
+
+function findData() {
+  document.getElementById('invis').style.visibility = "visible";
+}

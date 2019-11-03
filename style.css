@@ -24,3 +24,7 @@ video {
   height: "80%";
   margin:center;
 }
+
+#invis {
+  visibility: hidden;
+}
