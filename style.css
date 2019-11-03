@@ -18,3 +18,7 @@ h1 {
 .browse {
   margin: center;
 }
+
+#invis {
+  visibility: hidden;
+}
