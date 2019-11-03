@@ -1,6 +1,13 @@
-const superagent = require('superagent');
 
-let joke = superagent.get("https://icanhazdadjoke.com/").set('Accept', 'application/json').then(res => {
-  Promise.resolve(res.body.joke);
-})
-console.log(joke);
+function readURL(input) {
+  if (input.files && input.files[0]) {
+    var reader = new FileReader();
+
+    reader.onload = function (e) {
+      $('#blah')
+        .attr('src', e.target.result);
+    };
+
+    reader.readAsDataURL(input.files[0]);
+  }
+}
