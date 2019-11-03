@@ -26,6 +26,7 @@ background:#2d2d2d;}
 }
 
 #browse {
+  margin-top: 0%;
   margin-left: 0%;
   padding: 0%;
   text-align: center;
@@ -34,7 +35,7 @@ background:#2d2d2d;}
 }
 
 p {
-  font-size: 120%;
+  font-size: 80%;
 }
 
 
