@@ -13,5 +13,10 @@ function readURL(input) {
 }
 
 function findData() {
+  
   document.getElementById('invis').style.visibility = "visible";
+}
+
+function jumpstart() {
+  document.getElementById('invis2').style.visibility = "visible";
 }
