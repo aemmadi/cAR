@@ -1,3 +1,9 @@
+body {
+  background-image: url("https://www.imagine-america.org/wp-content/uploads/2018/10/Automtechanic-New-England-1200x675.jpg");
+  background-repeat: no-repeat; 
+  background-size: 120%;
+}
+
 img{
   max-width:180px;
   display: block;
@@ -9,20 +15,38 @@ input[type=file]{
 padding:10px;
 background:#2d2d2d;}
 
-h1 {
-  font-size: 100;
+.center {
+  width: 100vw;
+  height: 100vh;
+  margin-top: 15%;
+  padding: 0%;
   text-align: center;
-
+  align-self: center;
+  align-items: center;
 }
 
-.browse {
-  margin: center;
+#browse {
+  margin-left: 0%;
+  padding: 0%;
+  text-align: center;
+  align-content: center;
+  align-self: center;
 }
+
+
 
 video {
   width: "80%";
   height: "80%";
   margin:center;
+}
+
+.white {
+  color: white;
+}
+
+.big {
+  font-size: 300%;
 }
 
 #invis {

@@ -10,12 +10,19 @@
 </head>
 
 <body>
-  <h1>cAR</h1>
+
+  <div class="white center">
+  <h1 class="big">cAR</h1>
+  <h3 class="big">Augumented Reality Assistance for Car Repair</h3>
+  </div>
+
   <div id = "browse">
-      <input type='file' accept="image/*" capture="camera" onchange="readURL(this);" />
+      <input id="left" type='file' accept="image/*" capture="camera" onchange="readURL(this);" />
       <button onclick="findData()">submit</button>
   </div>
-  <div id="invis">
+
+  <div id="invis" class="center">
+  
     <img id = "blah" src="http://placehold.it/180" alt="your image" />
     <p id = "license">License - LGN5439</p>
     <p id="vin">
@@ -32,12 +39,10 @@
       Engine - 1.8L L4 DOHC 16V
     </p>
   </div>
-
+  
   <video>
     <source src = "video.mp4"/>
   </video>
-
-
 
 </body>
 
